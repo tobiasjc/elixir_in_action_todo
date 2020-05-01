@@ -1,0 +1,12 @@
+{application,todo_cache,
+             [{applications,[kernel,stdlib,elixir,logger,runtime_tools,
+                             poolboy,distillery,plug_cowboy]},
+              {description,"todo_cache"},
+              {modules,['Elixir.Todo.Application','Elixir.Todo.Cache',
+                        'Elixir.Todo.Database','Elixir.Todo.DatabaseWorker',
+                        'Elixir.Todo.List','Elixir.Todo.Metrics',
+                        'Elixir.Todo.Server','Elixir.Todo.System',
+                        'Elixir.Todo.Web']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Todo.Application',[]}}]}.
